@@ -1,0 +1,10 @@
+List
+<ol>
+	<% _.each(collectio, function(marker) { %>
+		<li>
+			x: <%= marker.attributes.x %>
+			y: <%= marker.attributes.y %>
+			name: <%= marker.attributes.name %>
+		</li>
+	<% }) %>
+</ol>
